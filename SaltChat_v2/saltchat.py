@@ -10,6 +10,7 @@ socketio = SocketIO(app)
 onlineUsers = []
 onlineUserAvatars = []
 app.secret_key = os.urandom(24)
+#test
 
 class Users(db.Model):
     id = db.Column(db.Integer, primary_key=True)
